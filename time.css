@@ -1,0 +1,432 @@
+.animation{
+    background-color: rgb(97, 92, 92);
+    height: 100%;
+    width: 0%;
+}
+
+/*----- my frame -----*/
+
+.displayf{
+    display: none;
+}
+
+
+/* ------ css ------*/
+
+
+/*--------- permanent ---------*/
+
+body{
+    background-color: black;
+}
+
+
+.head{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px white;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: transparent;
+}
+.laptxt{
+    height: 92px;
+    overflow-y: scroll;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.head h1, .head h6{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(97, 92, 92);
+}
+
+
+.subhead{
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+.clockbox, .clockbox:focus{
+    background-color: transparent;
+    box-shadow: 4px 4px 6px white;
+    padding-left: 0;
+    padding-right: 0;
+}
+.clockbox:hover{
+    background-color: rgb(97, 92, 92);
+}
+.clockboxtxt, .clockboxtxt:focus{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.clockboxtxt:hover{
+    color: white;
+}
+.stopwatchbox, .stopwatchbox:focus{
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+.stopwatchbox:hover{
+    background-color: rgb(97, 92, 92);
+}
+.stopwatchboxtxt,  .stopwatchboxtxt:focus{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.stopwatchboxtxt:hover{
+    color: white;
+}
+.stopwatchboxbig{
+    padding-left: 0;
+    padding-right: 0;
+}
+.timerbox,  .timerbox:focus{
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+.timerbox:hover{
+    background-color: rgb(97, 92, 92);
+}
+.timerboxtxt,  .timerboxtxt:focus{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.timerboxtxt:hover{
+    color: white;
+}
+
+
+
+.bottom{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px white;
+    border-color: transparent;
+}
+.bottomblack, .bottomblack:focus{
+    background-color: transparent;
+    box-shadow: 1px 1px 6px yellow;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bottomblack:hover{
+    background-color: yellow;
+    color: white;
+}
+.bottomred, .bottomred:focus{
+    background-color: transparent;
+    box-shadow: 1px 1px 6px red;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bottomred:hover{
+    background-color: red;
+    color: white;
+}
+.bottomredbox{
+    padding-left: 0;
+    padding-right: 0;
+}
+.bottomgreen, .bottomgreen:focus{
+    background-color: transparent;
+    box-shadow: 1px 1px 6px green;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bottomgreen:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+
+/*-------------------clock-------------------*/
+
+
+
+.runningclock{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px white;
+    border-color: transparent;
+    margin-bottom: 26px;
+}
+.runningclockcontrol{
+    background-color: transparent;
+    border-color: transparent;
+}
+.runningclock24, .runningclock24:focus{
+    background-color: transparent;
+    box-shadow: 4px 4px 6px white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+}
+.runningclock24:hover{
+    background-color: rgb(97, 92, 92);
+    color: white;
+}
+.runningclock12, .runningclock12:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+}
+.runningclock12:hover{
+    background-color: rgb(97, 92, 92);
+    color: white;
+}
+.runningclockreal{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px white;
+    border-color: transparent;
+}
+.runningclockdigit{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/*-------------- Stopwatch ------------*/
+
+
+
+
+.stopwatchtimebox{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px white;
+    border-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.stopwatchtimeboxtxt, .stopwatchtimeboxtxt:hover{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px rgb(97, 92, 92);
+    border-color: transparent;
+    font-size: 20px;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Inter', sans-serif;
+}
+.stopwatchtimeboxtxtdot, .stopwatchtimeboxtxtdot:hover{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Inter', sans-serif;
+}
+.stopwatchtimeboxtxtname{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(97, 92, 92);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.stopwatchstartbox{
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.stopwatchstartbox button, .stopwatchstartbox button:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.stopwatchstartbox button:hover, .stopwatchlapbox button:hover, .stopwatchpausebox button:hover, .stopwatchresetbox button:hover, .stopwatchrestartbox button:hover, .stopwatchlapbox button:hover, .stopwatchdeletbox button:hover{
+    background-color: rgb(97, 92, 92);
+    color: white;
+}
+
+
+
+.stopwatch4box{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.stopwatch4boxtopbox{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.stopwatch4boxbottombox{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.stopwatchlapbox button, .stopwatchlapbox button:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.stopwatchpausebox button, .stopwatchpausebox button:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.stopwatchresetbox button,.stopwatchresetbox button:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.stopwatchrestartbox button,.stopwatchrestartbox button:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stopwatchdeletbox{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.stopwatchdeletbox button, .stopwatchdeletbox button:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/*-------------------timer-------------------*/
+
+
+
+.timernumberbox{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px white;
+    border-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    height: 185px;
+}
+.timernumberup{
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+    height: 36px;
+}
+.timernumberupsq, .timernumberdownsq, .timernumbersq{
+    padding-left: 0;
+    padding-right: 0;
+}
+.timernumberupsq div, .timernumberupsq div:focus{
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+.timernumber{
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+}
+.timernumbersq div, .timernumbersq div:hover, .timernumbersq div:focus{
+    background-color: transparent;
+    box-shadow: 2px 2px 6px rgb(97, 92, 92);
+    border-color: transparent;
+    font-size: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+}
+div.timernumbersqf{
+    box-shadow: none;
+}
+.timernumberdown{
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+    height: 36px;
+}
+.timernumberdownsq div, .timernumberdownsq div:focus{
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+
+.timernumberdownsq div:hover, .timernumberupsq div:hover, .timerstartbuttonbox button:hover, .timercancelbuttonbox:hover, .timerpausebuttonbox:hover{
+    background-color: rgb(97, 92, 92);
+    color: white;
+}
+
+
+
+
+.animationmainbox{
+    padding: 0;
+    background-color: black;
+}
+.animationsubbox div{
+    padding: 0;
+}
+.running{
+    padding: 0;
+    background-color: black;
+    box-shadow: 3px 3px 6px white;
+}
+.runningleft, .runningright{
+    color: white;
+    text-align: center;
+}
+
+
+
+.timerstartbuttonbox{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.timerstartbuttonbox button, .timerstartbuttonbox button:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.timer2button{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.timercancelbuttonbox, .timercancelbuttonbox:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.timerpausebuttonbox, .timercancelbuttonbox:focus{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
