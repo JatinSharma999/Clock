@@ -13,7 +13,6 @@
 
 /* ------ css ------*/
 *{
-    outline:none;
 }
 
 /*--------- permanent ---------*/
@@ -76,6 +75,8 @@ body{
 .stopwatchboxtxt,  .stopwatchboxtxt:focus{
     color: white;
     font-family: 'Poppins', sans-serif;
+    outline:none;
+    
 }
 .stopwatchboxtxt:hover{
     color: white;
